@@ -1,6 +1,5 @@
 package at.ac.uibk.qe.artemis.leaky.tests;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
