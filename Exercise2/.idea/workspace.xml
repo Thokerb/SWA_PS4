@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33112a5c-62e3-4a35-8916-4f8d8c538133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/logic/PacketChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/Packet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/PotentiallyFaultyPacket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/LeakyBucketPatternInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/LeakyBucketPatternInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/logic/PacketChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/logic/PacketChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/LeakyBehaviorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/LeakyBehaviorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,17 +16,51 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myAutoScrollFromSource" value="true" />
+    <option name="myElementSize" value="361" />
+  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\kerbe\OneDrive\Dokumente\GitHub\SWA_PS4\Exercise2" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/LeakyBehaviorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#384#415#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coverage.report/notes.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="17">
+                <caret line="1" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coverage.report/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -32,8 +68,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/LeakyBucketPatternInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="1037">
+              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/PotentiallyFaultyPacket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/Packet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -41,41 +95,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/logic/PacketChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="452">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/LeakyTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -98,6 +136,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -107,6 +146,7 @@
       <find>seterr</find>
       <find>.classpath</find>
       <find>junit</find>
+      <find>PacketCheckerTest</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,10 +155,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/Packet.java" />
+        <option value="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/PotentiallyFaultyPacket.java" />
         <option value="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/LeakyBucketPatternInterface.java" />
+        <option value="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/LeakyTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/logic/PacketCheckerTest.java" />
+        <option value="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/PacketCheckerTest.java" />
         <option value="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/logic/PacketChecker.java" />
         <option value="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/LeakyBehaviorTest.java" />
-        <option value="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/LeakyTestSuite.java" />
+        <option value="$PROJECT_DIR$/coverage.report/notes.md" />
       </list>
     </option>
   </component>
@@ -140,8 +185,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,7 +197,7 @@
             <path>
               <item name="Exercise2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exercise2" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="coverage.report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Exercise2" type="b2602c69:ProjectViewProjectNode" />
@@ -164,6 +209,13 @@
               <item name="Exercise2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leaky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exercise2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercise2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leaky" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Exercise2" type="b2602c69:ProjectViewProjectNode" />
@@ -190,13 +242,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="coverage" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="at.ac.uibk.qe.artemis.leaky.logic" />
+      <recent name="at.ac.uibk.qe.artemis.leaky.tests" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="at.ac.uibk.qe.artemis.leaky" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kerbe\OneDrive\Dokumente\GitHub\SWA_PS4\Exercise2\src" />
     </key>
@@ -213,6 +280,55 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.LeakyBehaviorTest">
+    <configuration name="LeakyBehaviorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercise2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.uibk.qe.artemis.leaky.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="at.ac.uibk.qe.artemis.leaky.logic.PacketChecker" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ac.uibk.qe.artemis.leaky.tests" />
+      <option name="MAIN_CLASS_NAME" value="at.ac.uibk.qe.artemis.leaky.tests.LeakyBehaviorTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeakyBehaviorTest.SendTooManyBadPackages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercise2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.uibk.qe.artemis.leaky.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ac.uibk.qe.artemis.leaky.tests" />
+      <option name="MAIN_CLASS_NAME" value="at.ac.uibk.qe.artemis.leaky.tests.LeakyBehaviorTest" />
+      <option name="METHOD_NAME" value="SendTooManyBadPackages" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.LeakyBehaviorTest" />
+      <item itemvalue="JUnit.LeakyBehaviorTest.SendTooManyBadPackages" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LeakyBehaviorTest" />
+        <item itemvalue="JUnit.LeakyBehaviorTest.SendTooManyBadPackages" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -223,86 +339,166 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605014937471</updated>
-      <workItem from="1605014941997" duration="2103000" />
+      <workItem from="1605014941997" duration="2704000" />
+      <workItem from="1605089762395" duration="1903000" />
+      <workItem from="1605091729759" duration="1529000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LeakyBehaviorTest_dontSetErrorRateOneBad - 2020.11.11 at 11h 58m 28s.xml">
+      <configuration name="LeakyBehaviorTest.dontSetErrorRateOneBad" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeakyBehaviorTest - 2020.11.11 at 11h 58m 55s.xml">
+      <configuration name="LeakyBehaviorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeakyBehaviorTest - 2020.11.11 at 11h 59m 18s.xml">
+      <configuration name="LeakyBehaviorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeakyBehaviorTest - 2020.11.11 at 12h 00m 18s.xml">
+      <configuration name="LeakyBehaviorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeakyBehaviorTest - 2020.11.11 at 12h 00m 43s.xml">
+      <configuration name="LeakyBehaviorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeakyBehaviorTest - 2020.11.11 at 12h 03m 34s.xml">
+      <configuration name="LeakyBehaviorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeakyBehaviorTest - 2020.11.11 at 12h 04m 26s.xml">
+      <configuration name="LeakyBehaviorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeakyBehaviorTest_SendTooManyBadPackages - 2020.11.11 at 12h 05m 18s.xml">
+      <configuration name="LeakyBehaviorTest.SendTooManyBadPackages" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeakyBehaviorTest - 2020.11.11 at 12h 06m 02s.xml">
+      <configuration name="LeakyBehaviorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeakyBehaviorTest - 2020.11.11 at 12h 09m 31s.xml">
+      <configuration name="LeakyBehaviorTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2103000" />
+    <option name="totallyTimeSpent" value="6136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.32302773" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32302773" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/logic/PacketChecker.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/LeakyBehaviorTest.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Exercise2$PacketCheckerTest_setErrorRate.ic" NAME="PacketCheckerTest.setErrorRate Coverage Results" MODIFIED="1605091243776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.ac.uibk.qe.artemis.leaky.tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Exercise2$PacketCheckerTest_setErrorRate__1_.ic" NAME="PacketCheckerTest.setErrorRate (1) Coverage Results" MODIFIED="1605091361244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.ac.uibk.qe.artemis.leaky.logic.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Exercise2$LeakyBehaviorTest_onlyGoodPackages.ic" NAME="LeakyBehaviorTest.onlyGoodPackages Coverage Results" MODIFIED="1605092094354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.ac.uibk.qe.artemis.leaky.tests.*</FILTER>
+      <FILTER>at.ac.uibk.qe.artemis.leaky.logic.PacketChecker</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Exercise2$LeakyBehaviorTest.ic" NAME="LeakyBehaviorTest Coverage Results" MODIFIED="1605092967752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.ac.uibk.qe.artemis.leaky.tests.*</FILTER>
+      <FILTER>at.ac.uibk.qe.artemis.leaky.logic.PacketChecker</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Exercise2$LeakyBehaviorTest__1_.ic" NAME="LeakyBehaviorTest (1) Coverage Results" MODIFIED="1605091656453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.ac.uibk.qe.artemis.leaky.tests.*</FILTER>
+      <FILTER>at.ac.uibk.qe.artemis.leaky.logic.PacketChecker</FILTER>
+    </SUITE>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/LeakyBucketPatternInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/logic/PacketChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="493">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar!/org/junit/jupiter/api/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/logic/PacketCheckerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/PacketCheckerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/LeakyBucketPatternInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/PotentiallyFaultyPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/Packet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -314,20 +510,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/LeakyBehaviorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/logic/PacketChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="452">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/LeakyTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.img/arrowUp.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.img/arrowDown.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/LeakyBehaviorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#384#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage.report/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage.report/notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

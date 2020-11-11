@@ -16,11 +16,10 @@ public class PacketChecker implements LeakyBucketPatternInterface {
     }
 
     @Override
-    public void receivePacket(PotentiallyFaultyPacket potentiallyFaultyPacket) throws TooManyErrorsException {
+    public void receivePacket(IPotentiallyFaultyPacket potentiallyFaultyPacket) throws TooManyErrorsException {
         if(currentTimeMillis() - lastTimeStamp > 1000){
             lastTimeStamp = currentTimeMillis();
             currentError = 0;
-            return;
         }
         if(potentiallyFaultyPacket.isFaulty()){
             currentError = currentError + 1;

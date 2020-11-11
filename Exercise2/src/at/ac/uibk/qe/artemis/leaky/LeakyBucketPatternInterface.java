@@ -16,7 +16,7 @@ public interface LeakyBucketPatternInterface {
 	 * @author Michael Breu
 	 *
 	 */
-	public interface Packet {
+	public interface IPacket {
 		/**
 		 * payload is not relevant in our context.
 		 * 
@@ -31,7 +31,7 @@ public interface LeakyBucketPatternInterface {
 	 * @author Michael Breu
 	 *
 	 */
-	public interface PotentiallyFaultyPacket extends Packet {
+	public interface IPotentiallyFaultyPacket extends IPacket {
 		/**
 		 * returns true, if the current packet is faulty.
 		 * 
@@ -59,7 +59,7 @@ public interface LeakyBucketPatternInterface {
 	 * 
 	 * @param potentiallyFaultyPacket the packet to receive
 	 */
-	public void receivePacket(PotentiallyFaultyPacket potentiallyFaultyPacket) throws TooManyErrorsException;
+	public void receivePacket(IPotentiallyFaultyPacket potentiallyFaultyPacket) throws TooManyErrorsException;
 	
 	
 }
