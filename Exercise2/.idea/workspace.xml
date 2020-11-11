@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33112a5c-62e3-4a35-8916-4f8d8c538133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/Packet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/PotentiallyFaultyPacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/LeakyBucketPatternInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/LeakyBucketPatternInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/logic/PacketChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/logic/PacketChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/LeakyBehaviorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ac/uibk/qe/artemis/leaky/tests/LeakyBehaviorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="33112a5c-62e3-4a35-8916-4f8d8c538133" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +42,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="17">
-                <caret line="1" selection-start-line="1" selection-end-line="1" />
+                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -192,40 +185,6 @@
           <expand>
             <path>
               <item name="Exercise2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercise2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise2" type="462c0819:PsiDirectoryNode" />
-              <item name="coverage.report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercise2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercise2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leaky" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercise2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leaky" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercise2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leaky" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercise2" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -341,7 +300,7 @@
       <updated>1605014937471</updated>
       <workItem from="1605014941997" duration="2704000" />
       <workItem from="1605089762395" duration="1903000" />
-      <workItem from="1605091729759" duration="1529000" />
+      <workItem from="1605091729759" duration="2737000" />
     </task>
     <servers />
   </component>
@@ -378,11 +337,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6136000" />
+    <option name="totallyTimeSpent" value="7344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -394,7 +352,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -558,7 +516,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="17">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>
